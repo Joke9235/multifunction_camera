@@ -42,6 +42,11 @@ dependencies:
   flutter_downloader: ^1.10.4 #下载文件
   fluttercontactpicker: ^4.7.0 #获取手机联系人
   flutter_vibrate: ^1.3.0 #震动
+  flutter_easyloading: ^3.0.5
+  camera: ^0.10.0
+  video_player: ^2.2.5
+  path_provider: ^2.0.9
+  image_gallery_saver: ^1.7.1
 
 dev_dependencies:
   flutter_test:

@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:flutter_easyloading/flutter_easyloading.dart';
 import 'package:multifunction_camera/widget/custom_appbar.dart';
 import 'package:multifunction_camera/widget/custom_scaffold.dart';
 
@@ -34,6 +35,7 @@ class _BlankPageState extends State<BlankPage> {
               Clipboard.setData(ClipboardData(text: str));
               setState(() {
                 _tips = '已复制!';
+                EasyLoading.showToast("已成功复制到剪切板");
               });
             },
             child: Container(

@@ -12,7 +12,7 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return CustomScaffold(
       appBar: CustomAppBar(
-        title: const Text('Multifunction Camera'),
+        title: const Text('KTools'),
       ),
       body: SingleChildScrollView(
         child: Container(
